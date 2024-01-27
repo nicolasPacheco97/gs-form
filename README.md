@@ -5,3 +5,10 @@
 
 Node version: v18.17.0
 
+## Libretias usadas:
+-React
+-ReactDom
+-ReactRouter
+-TypeScript
+-tailwind
+
