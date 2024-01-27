@@ -3,17 +3,35 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: dark light;
+  color: rgb(46, 48, 50);
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto') url('./assets/fonts/Roboto/Roboto-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto') url('./assets/fonts/Roboto/Roboto-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto') url('./assets/fonts/Roboto/Roboto-Light.ttf');
+  font-weight: 200;
 }
 
