@@ -12,3 +12,11 @@ Node version: v18.17.0
 -TypeScript
 -tailwind
 
+##IDs usuarios: 
+10000
+10001
+10002
+10003
+10004
+
+
